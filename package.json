@@ -4,13 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "tape romanizer.test.js | tap-spec"
+    "test": "jshint romanizer.test.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "jshint": "^2.9.6",
     "tap-spec": "^5.0.0",
     "tape": "^4.9.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FACK1/Integration.git"
+  },
+  "bugs": {
+    "url": "https://github.com/FACK1/Integration/issues"
+  },
+  "homepage": "https://github.com/FACK1/Integration#readme"
 }
