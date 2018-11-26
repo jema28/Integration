@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "jshint romanizer.test.js"
+    "lint": "jshint romanizer.js",
+    "test": "npm run lint && tape romanizer.test.js | tap-spec"
   },
   "author": "",
   "license": "ISC",
